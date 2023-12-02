@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About us</title>
+   <link rel="icon" href="images/guitar-solid.svg" type="image">
+   <link rel="stylesheet" href="style/style2.css">
+</head>
+<body>
+
+   
+
+   <div class="direct"> 
+      <div>
+         <img class="img_arrow arrow_right" src="images/arrow-right-solid.svg" width="20" height="20">
+      </div>
+   
+      <div>
+         <img class="img_arrow arrow_left" src="images/arrow-left-solid.svg" width="20" height="20">
+      </div>
+   </div>
+
+   <div class="parent">
+         <div class="block">
+            <div class="elemm block_1"><img src="images/malogranjamal.png" width="250" height="90"></div>
+            <div class="elemm block_2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquam excepturi voluptas, necessitatibus exercitationem pariatur iusto sit rem. Excepturi sunt dolorem distinctio consequatur sed reiciendis deleniti exercitationem sint quas nisi?Lorem, ipsum dolor sit amet consectetur adipisicing elit. A obcaecati, temporibus deleniti pariatur tenetur blanditiis assumenda facilis repellat harum tempore dicta distinctio laboriosam dolorem. 
+            </div>
+         </div>
+         
+   </div>
+     
+
+
+   <div class="block_parent_2">
+      <div class="block2">
+         <div class="elemm2 block_3"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquam excepturi voluptas, necessitatibus exercitationem pariatur iusto sit rem. Excepturi sunt dolorem distinctio consequatur sed reiciendis deleniti exercitationem sint quas nisi?Lorem, ipsum dolor sit amet consectetur adipisicing elit. A obcaecati, temporibus deleniti pariatur tenetur blanditiis assumenda facilis repellat harum tempore dicta distinctio laboriosam dolorem. 
+         </div>
+         <div class="elemm2 block_4"><img src="images/malogranjamal.png" width="250" height="90"></div>
+         
+      </div>
+   </div>
+
+
+
+   <footer class="footer">
+      <div class="downinfo">
+        <div class="ul_downfooter">
+          <div class="elem">© Copyright 2023 MALOGRANJA All rights reserved.</div>
+          <div class="elem"><a href="https://instagram.com/malogranja?igshid=NmQ5Y2ExZGE1MQ==" target="_blank"><img class="img_link" src="images/instagram.svg" alt="instagram" width="30" height="30"></a></div>
+          <div class="elem"><a href="https://vk.com/malogranja" target="_blank"><img class="img_link" src="images/vk.svg" alt="vk" width="30" height="30"></a></div>
+          <div class="elem"><a href="https://www.youtube.com/@malogranjaofficial9898" target="_blank"><img class="img_link" src="images/youtube.svg" alt="youtube" width="30" height="30"></a></div>
+          <div class="elem"><a href="https://t.me/malogranjaa" target="_blank"><img class="img_link"src="images/telegram.svg" alt="telegram" width="30" height="30"></a></div>
+        </div>
+      </div>
+    </footer>
+
+<script>
+let r = document.querySelector('.arrow_right');
+r.onclick = function(event){
+let elem_r = document.querySelector('.block_parent_2')
+elem_r.classList.add('parent2');
+}
+
+let l = document.querySelector('.arrow_left');
+l.onclick = function(event){
+let elem_l = document.querySelector('.block_parent_2')
+elem_l.classList.remove('parent2');
+}
+
+</script>
+    
+</body>
+</html>

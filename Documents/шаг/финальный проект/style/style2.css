@@ -1,0 +1,130 @@
+*,
+*:before
+*:after {
+   box-sizing:border-box;
+}
+body {
+   background:url(../images/avaaboutus.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0;
+   margin: 0;
+}
+
+.parent {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   overflow: auto;
+}
+
+.block {
+   background: #f2f2f2;
+   width: 70%;
+   height: 70%;
+   display: flex;
+   align-items: center;
+}
+.elemm{
+   width: 50%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.block_1{
+   background-color: black;
+   
+}
+
+
+.direct{
+   width: 50px;
+   height: 50px;
+   /*background-color: #2AB3E2;*/
+   float: right;
+   margin-top: 10px;
+   z-index: 10;
+   position: relative;
+}
+
+.img_arrow{
+   background-color: white;
+   padding: 1px;
+}
+.img_arrow:hover{
+   background-color: #2AB3E2;
+}
+
+
+/* block2 */
+
+.block_parent_2{
+   display: none;
+}
+.parent2 {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   overflow: auto;
+}
+
+.block2 {
+   background: #f2f2f2;
+   width: 70%;
+   height: 70%;
+   display: flex;
+   align-items: center;
+}
+.elemm2{
+   width: 50%;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+.block_4{
+   background-color: black;
+   
+}
+
+
+
+
+
+
+/*footer*/
+
+
+.footer{
+   background-color: #000101;
+   position: absolute;
+   top: 92.5%;
+   width: 100%;
+}
+
+.ul_downfooter{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   justify-content:space-around;
+   color: white;
+   font-size:14px;
+   height: 45px;
+}
+
+.img_link{
+   background-color: aliceblue;
+   border-radius: 45%;
+}
+.img_link:hover {
+   background-color:#2AB3E2;
+}

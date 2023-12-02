@@ -1,0 +1,101 @@
+/* all elem*/
+*,
+*:before
+*:after {
+   box-sizing:border-box;
+}
+body {
+   background:url(../images/logo_ava.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 0;
+   margin: 0;
+}
+
+/*Шапка nav*/
+.logo {
+   letter-spacing: 6px;
+   transition: all 0.8s ease-in-out 0.3s;
+   color: rgb(234, 237, 242);
+   font-family: 'Kaushan Script', cursive;
+   font-size: 36px;
+   padding: 40px 30px;
+}
+
+.logo:hover {
+   background-color: black;
+   padding: 35px;
+   border-radius: 35px;
+   color: rgb(238, 241, 241);
+   margin: 20px 20px;
+
+}
+
+
+.item{
+   width: 80px;
+   height: 80px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color:#2AB3E2;
+}
+.img_list{
+   position: absolute;
+   top: 20px;
+   right: 15px;
+   width:40px;
+   height:40px;
+}
+
+.wow {
+   display: none; 
+}
+
+
+.dropdown-content{
+display: flex;
+align-items: center;
+flex-direction: column;
+color:rgb(245, 242, 242);
+/*transition: all 0.8s ease-in-out 0.1s;*/
+font-size: 35px;
+font-family:'Lato', sans-serif;
+padding: 15px;
+margin: 5px;
+background-color: transparent;
+/*width: fit-content;*/
+border-radius: 35px;
+}
+
+
+
+/*ссылки внизу*/
+
+.footer{
+   background-color: #000101;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
+
+.ul_downfooter{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   justify-content:space-around;
+   color: white;
+   font-size:14px;
+   height: 45px;
+}
+
+.img_link{
+   background-color: aliceblue;
+   border-radius: 45%;
+}
+.img_link:hover {
+   background-color:#2AB3E2;
+}
+
+
+
